@@ -3,7 +3,7 @@ import SoundscapeConductor from './SoundscapeConductor'
 import SoundscapeManager from './SoundscapeManager'
 import SoundscapeEvent from './SoundscapeEvent'
 import SoundscapeState from './SoundscapeState'
-import SoundscapeModuleType from './SoundscapeModuleType'
+import * as SoundscapeModuleType from './SoundscapeModuleType'
 
 export {
   audioContext,
@@ -14,4 +14,4 @@ export {
   SoundscapeModuleType
 }
 
-export default SoundscapeConductor
+// export default SoundscapeConductor

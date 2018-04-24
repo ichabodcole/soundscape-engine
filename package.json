@@ -4,7 +4,7 @@
   "description": "An ambient sound orchetrator.",
   "main": "lib/soundscape-engine.js",
   "scripts": {
-    "compile": "babel src -o lib/soundscape-engine.js",
+    "compile": "babel src/index.js -o lib/soundscape-engine.js",
     "prepublishOnly": "npm test && npm run compile",
     "start": "karma start karma.conf.js --auto-watch",
     "test": "karma start karma.conf.js --single-run"
